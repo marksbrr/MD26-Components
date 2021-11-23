@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-button {
+    margin: 15px;
+    width: 100%;
+    word-wrap: break-word;
+
+    :hover {
+        cursor: pointer;
+    }
+}

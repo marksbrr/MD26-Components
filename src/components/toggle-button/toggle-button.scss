@@ -1,0 +1,18 @@
+.toggle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.toggle--button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    border: none;
+    color: rgb(87, 214, 87);
+    cursor: pointer;
+
+}
+
+.toggle--close {
+    color: red;
+}

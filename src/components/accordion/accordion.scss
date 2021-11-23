@@ -1,0 +1,38 @@
+.accordion {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion__container {
+    width: 500px;
+}
+
+.accordion__card {
+    background-color: #e5e5e5;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.accordion__card-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.accordion__card-question:after {}
+
+.accordion__card-answer {
+    max-height: 0;
+    overflow: hidden;
+    transform: transition(0.5s)
+}
+
+.accordion__card-answer.visible {
+    transform: transition(0.5s)
+}
