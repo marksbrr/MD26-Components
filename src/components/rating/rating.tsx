@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/mouse-events-have-key-events */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import { useState } from 'react';
 import { FaStar } from 'react-icons/fa';
 import './rating.scss';
